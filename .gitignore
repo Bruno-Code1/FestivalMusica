@@ -90,7 +90,11 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
-
+img
+image
+images
+videos
+video
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
