@@ -1,0 +1,27 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruno-Code1/FestivalMusica.git"
+  },
+  "author": "Bruno Bettio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bruno-Code1/FestivalMusica/issues"
+  },
+  "homepage": "https://github.com/Bruno-Code1/FestivalMusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5"
+  }
+}
